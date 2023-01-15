@@ -4,6 +4,8 @@
         android:label="deltahacks2023"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCvpoOww0aoEwyAVQ31f5TZQtMz3BnATKg"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -30,7 +32,5 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-        <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCvpoOww0aoEwyAVQ31f5TZQtMz3BnATKg"/>
     </application>
 </manifest>
